@@ -87,7 +87,7 @@ Make sure you have installed:
 ### 2️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/shyam242/creditSea.git
+git clone https://github.com/shyam242/assignment.git
 cd creditSea
 
 ```
@@ -98,4 +98,47 @@ cd backend
 npm install
 
 ```
+### 4️⃣ Configure Environment Variables
+
+Create a `.env` file inside the `server/` directory:
+
+```
+DB_URL=your_mongodb_connection_string
+PORT=5000
+```
+### 5️⃣ Start the Backend Server
+
+```bash
+cd server
+npm start
+```
+
+Backend runs at: `http://localhost:5000`
+
+### 6️⃣ Start the Frontend App
+
+```bash
+# From the project root
+npm start
+```
+Set Environmental Variables
+```bash
+NEXT_PUBLIC_API_URL = https://creditsea-backend.onrender.com
+```
+
+Frontend runs at: `http://localhost:3000`
+
+---
+##👤 Author
+
+Shyam Kumar
+2nd-year Engineering Student | Full-Stack Developer
+
+📧 Email: Shyamkumar997755@gmail.com
+🌐 Linkedin: https://www.linkedin.com/in/shyam2402/
+
+ ##📜 License
+
+This project is licensed under the MIT License — free to use, modify, and distribute.
+
 
