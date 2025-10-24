@@ -129,16 +129,18 @@ NEXT_PUBLIC_API_URL = https://creditsea-backend.onrender.com
 Frontend runs at: `http://localhost:3000`
 
 ---
-##👤 Author
+## 👤 Author
 
 Shyam Kumar
 2nd-year Engineering Student | Full-Stack Developer
 
 📧 Email: Shyamkumar997755@gmail.com
+
 🌐 Linkedin: https://www.linkedin.com/in/shyam2402/
 
- ##📜 License
+ ## 📜 License
 
 This project is licensed under the MIT License — free to use, modify, and distribute.
+
 
 
