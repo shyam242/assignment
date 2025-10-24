@@ -47,3 +47,55 @@ The application combines a **Next.js + Tailwind CSS frontend** with a **Node.js 
 
 ## 📁 Project Structure
 
+```
+
+CreditSea/
+├── backend/
+│ ├── src/
+│ │ ├── models/
+│ │ │ └── Report.js
+│ │ ├── routes/
+│ │ │ └── reports.js
+│ │ └── index.js
+│ ├── .env # Environment variables
+│ ├── package.json
+│ └── ...
+└── frontend/
+├── app/
+├── components/
+
+```
+---
+
+
+---
+
+## 🧑‍💻 Getting Started
+
+Follow these steps to run **CreditSea locally**:
+
+### 1️⃣ Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/) v18+  
+- [npm](https://www.npmjs.com/) (comes with Node.js)  
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account  
+
+---
+
+### 2️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/shyam242/creditSea.git
+cd creditSea
+
+```
+### 3️⃣ Backend Setup
+
+```bash
+cd backend
+npm install
+
+```
+
